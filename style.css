@@ -66,7 +66,7 @@ font-size: 0.7rem;
 }
 
 .socials h1{
-    color: white;
+    color: rgb(98, 5, 5);
     font-size: 1,5rem;
 }
 
@@ -81,6 +81,7 @@ font-size: 0.7rem;
     position: relative;
     border-radius: 6px;
     padding: 3px;
+    font-size: 1rem
 }
 
 .sosmed:hover{
