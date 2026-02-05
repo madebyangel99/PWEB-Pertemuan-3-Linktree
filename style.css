@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profil{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.profil img{
+    width: 150px;
+    height: 113px;
+    border-radius: 50%;
+}
+
+.profil h1{
+    color:rgb(238, 199, 199);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 2rem;
+}
+    
+.playpen-sans {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.socials{
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 12px;
+font-size: 0.7rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials h1{
+    color: white;
+    font-size: 1,5rem;
+}
+
+/* button */
+.sosmed{
+    background-color: rgb(242, 188, 188);
+    width: 250px;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+.sosmed:hover{
+    background-color: rgb(224, 135, 135);
+    color: white;
+    transition: 0.5s;
+}
+
+.sosmed i{
+    position: absolute;
+    left: 8px;
+    font-size: 1.2 rem;
+}
