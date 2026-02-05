@@ -8,10 +8,7 @@ Kemudian kode <title>Angel's Profile</title> untuk membuat tulisan yang muncul d
 
 Masuk bagian body, semua isi pertama dibungkus dalam div dengan class container. Untuk kelas profil berisi kode  untuk menautkan gambar yang sudah ada di dalam folder yang sama sebelumnya dengan menambahkan kata foto profil sebagai alt. Kemudian dengan judul utama profil ini dalam h1 yang berisi sapaan.
 
-Kemudian masuk ke class socials yang disinilah akan dimasukkan info-info sosial media yang dimiliki, seperti contoh <a target="_blank" href="https://www.instagram.com/arahmatun.a?igsh=bzZpeG5uZXY3ZHBj">
-            <div class="sosmed Playpen"><i class="fa-brands fa-square-instagram"></i>Instagram</div>
-            </a>
-dengan kode <a> untuk membuat link kemudian dengan target="_blank" agar link terbuka di tab baru jika di klik, lalu kode href berisi link tujuan jika user mengklik button sosial media nantinya. Bagian ini berada dalam class sosmed dan juga font yang sebelumnya sudah di set juga dipanggil, yang terakhir digunakan kode <i> untuk menggunakan ikon dari font awesome. Begitu seterusnya untuk sosial media facebook, x, dan juga github.
+Kemudian masuk ke class socials yang disinilah akan dimasukkan info-info sosial media yang dimiliki, seperti contoh dengan kode <a> untuk membuat link kemudian dengan target="_blank" agar link terbuka di tab baru jika di klik, lalu kode href berisi link tujuan jika user mengklik button sosial media nantinya. Bagian ini berada dalam class sosmed dan juga font yang sebelumnya sudah di set juga dipanggil, yang terakhir digunakan kode <i> untuk menggunakan ikon dari font awesome. Begitu seterusnya untuk sosial media facebook, x, dan juga github.
 
 #Bagian style.css
 Kode diawal untuk mengatur agar jarak margin dan padding menjadi 0. Lalu masuk bagian body untuk mengatur background dan posisi konten dari website agar tetap di tengah. Kemudian ada section untuk kelas profil fotonya, disini saya menggunakan foto 4:3 jadi ukuran frame mengikuti foto, dengan border radius untuk memberi efek lengkungan sekitar frame foto.
